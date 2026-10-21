@@ -21,6 +21,15 @@
     <main>
         <h2>Check the Weather</h2>
         <p>Check the weather in your city before choosing your outfit.</p>
+        
+        <form id="weather-form"> <!-- groups the form controls and creates an ID for Java Script -->
+            <label for="city">City name</label> <!-- labels the input with the id city -->
+            <input type="text" id="city" name="city" required> <!-- creates a required text field for the the city name -->
+            <button type="submit">Check weather</button> <!-- submits the form -->
+        </form>
+
+        <p id="weather-message" role="status"></p> <!-- displays the status message and shows the updates to the user -->
+        <div id="weather-result"></div> <!-- holds the weather information that he Java Script adds -->
     </main>
 </body>
 
