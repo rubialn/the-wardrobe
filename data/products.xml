@@ -2,10 +2,83 @@
 
 <products> <!-- collection of all products -->
     <product id="000-01"> <!-- product 1 (3 digits + "-" + 2 digits) -->
-        <category></category> <!-- type of clothes -->
-        <name></name> <!-- name of the product -->
-        <description></description> <!-- clothes description -->
-        <quantity></quantity> <!-- quantity of the item in stock -->
-        <unitPrice></unitPrice> <!-- price of item (1 unit) -->
+        <category>Tops</category> <!-- type of clothes -->
+        <name>Classic Cotton T-Shirt</name> <!-- name of the product -->
+        <description>White cotton T-shirt with a relaxed fit.</description> <!-- clothes description -->
+        <quantity>20</quantity> <!-- quantity of the item in stock -->
+        <unitPrice>29.99</unitPrice> <!-- price of item (1 unit) -->
     </product> <!-- end of product 1 -->
+
+    <product id="000-02"> 
+        <category>Trousers</category> 
+        <name>Wide-Leg Trousers</name> 
+        <description>Black trousers with a wide-leg fit.</description>
+        <quantity>0</quantity>
+        <unitPrice>49.99</unitPrice>
+    </product> <!-- end of product 2 -->
+
+    <product id="000-03"> 
+        <category>Tops</category> 
+        <name>Long-Sleeve Top</name> 
+        <description>Beige cotton top with long sleeves and a fitted silhouette.</description>
+        <quantity>15</quantity>
+        <unitPrice>34.99</unitPrice>
+    </product> <!-- end of product 3 -->
+
+    <product id="000-04"> 
+        <category>Knitwear</category> 
+        <name>Knitted Sweater</name> 
+        <description>Grey knitted sweater with a round neckline.</description>
+        <quantity>12</quantity>
+        <unitPrice>54.99</unitPrice>
+    </product> <!-- end of product 4 -->
+
+    <product id="000-05"> 
+        <category>Outerwear</category> 
+        <name>Denim Jacket</name> 
+        <description>Blue denim jacket with front buttons and two chest pockets.</description>
+        <quantity>8</quantity>
+        <unitPrice>69.99</unitPrice>
+    </product> <!-- end of product 5 -->
+
+    <product id="000-06"> 
+        <category>Dresses</category> 
+        <name>Midi Dress</name> 
+        <description>Green midi dress with short sleeves and a fitted waist.</description>
+        <quantity>10</quantity>
+        <unitPrice>59.99</unitPrice>
+    </product> <!-- end of product 6 -->
+
+    <product id="000-07"> 
+        <category>Skirts</category> 
+        <name>Pleated Skirt</name> 
+        <description>Black pleated skirt with an elasticated waistband.</description>
+        <quantity>14</quantity>
+        <unitPrice>39.99</unitPrice>
+    </product> <!-- end of product 7 -->
+
+    <product id="000-08"> 
+        <category>Trousers</category> 
+        <name>Straight-Leg Jeans</name> 
+        <description>Blue straight-leg jeans with five pockets.</description>
+        <quantity>18</quantity>
+        <unitPrice>54.99</unitPrice>
+    </product> <!-- end of product 8 -->
+
+    <product id="000-09"> 
+        <category>Hoodies</category> 
+        <name>Hoodie</name> 
+        <description>Navy cotton hoodie with a front pocket and an adjustable hood.</description>
+        <quantity>16</quantity>
+        <unitPrice>44.99</unitPrice>
+    </product> <!-- end of product 9 -->
+
+    <product id="000-10"> 
+        <category>Shorts</category> 
+        <name>Linen Shorts</name> 
+        <description>Beige linen shorts with side pockets and a relaxed fit.</description>
+        <quantity>9</quantity>
+        <unitPrice>32.99</unitPrice>
+    </product> <!-- end of product 10 -->
+
 </products> <!-- end of the collection of all products -->
