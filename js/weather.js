@@ -1,0 +1,2 @@
+const weatherMessage = document.getElementById("weather-message"); //finds the element by the id weather-message which is the <p> with id weather-message in the html file
+weatherMessage.textContent = "The Weather form is ready."; //displays the message inside the status paragraph
